@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "data (things)",
+        "1": "internationalization",
+        "2": "small business",
+        "3": "payment"
+    },
+    "description": "International Bank Account Number Validation",
+    "image": "//s3.amazonaws.com/appforest_uf/f1603449703594x885877045817008000/IBAN.png",
+    "license": "open_source",
+    "name": "IBAN_Check",
+    "plugin_instructions": ""
+}

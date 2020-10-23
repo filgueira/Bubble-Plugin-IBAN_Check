@@ -1,0 +1,32 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 50,
+        "width": 50
+    },
+    "display": "IBAN_Check",
+    "fields": {
+        "AAD": {
+            "caption": "IBAN_Number",
+            "doc": "IBAN_Number = IBAN Input field's value",
+            "editor": "DynamicValue",
+            "name": "IBAN_numero",
+            "optional": true,
+            "rank": 0,
+            "value": "_any_thing"
+        }
+    },
+    "icon": "ion-android-checkbox-outline",
+    "states": {
+        "AAI": {
+            "caption": "IBAN_Validado_OK",
+            "doc": "Retorna YES/NO",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "IBAN_OK",
+            "value": "boolean"
+        }
+    }
+}
